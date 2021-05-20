@@ -1,0 +1,22 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "..\\documents"
+		},
+		{
+			"path": "..\\fonts"
+		},
+		{
+			"path": "..\\images"
+		},
+		{
+			"path": "..\\sounds"
+		},
+		{
+			"path": "..\\videos"
+		}
+	]
+}

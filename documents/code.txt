@@ -1,0 +1,32 @@
+if P1X_cal<=700:
+                    player1X+=(TILE_RES*dice)
+                elif P1X_cal>700:
+                    player1Y = 560
+                    player1X = 1400 - (tileNO*TILE_RES)
+                if P1X_cal>1400:
+                    player1Y = 490
+                    player1X = 630-(2100-(int(tileNO))*TILE_RES)
+                if P1X_cal>2100:
+                    player1Y = 420
+                    player1X = 2800 - ((tileNO*TILE_RES))
+                if P1X_cal>2800:
+                    player1Y = 350
+                    player1X = 630-(3500-(int(tileNO))*TILE_RES)
+                if P1X_cal>3500:
+                    player1Y = 280
+                    player1X = 4200-(int(tileNO)*TILE_RES)
+                if P1X_cal>4200:
+                    player1Y = 210
+                    player1X = 630-(4900-(int(tileNO))*TILE_RES)
+                if P1X_cal>4900:
+                    player1Y = 140
+                    player1X = 5600-(int(tileNO)*TILE_RES)
+                if P1X_cal>5600:
+                    player1Y = 70
+                    player1X = 630-(6300-(int(tileNO))*TILE_RES)
+                if P1X_cal>6300:
+                    player1Y = 0
+                    player1X = 7000-(int(tileNO)*TILE_RES)
+                if P1X_cal>=7000:
+                    player1X = 0
+                    player1Y = 0
